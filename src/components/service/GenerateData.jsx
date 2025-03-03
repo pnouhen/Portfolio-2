@@ -1,7 +1,7 @@
 import { useEffect } from "react";
-export default function GenerateData({setData}){
+export default function GenerateData({setData, link}){
     useEffect(() => {
-        fetch("../../../public/skills.json")
+        fetch(link)
           .then((response) => response.json())
           .then((data) => {
               setData(data);
@@ -10,6 +10,6 @@ export default function GenerateData({setData}){
             console.error("Erreur lors de la récupération des données :", error)
           );
           // Table according to the elements to be modified
-      }, [setData]); 
+      }, [setData, link]); 
       return null;     
 }

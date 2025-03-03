@@ -2,14 +2,13 @@
 
 footer {
   @include HeaderFooter;
-  @include backgroundOdd;
+  @include backgroundBrown;
   display: flex;
   ul {
     @include HeaderFooterUl;
     width: 100%;
   }
   li {
-    @include Li;
     a {
       @include HeaderFooterA;
       display: flex;

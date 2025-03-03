@@ -2,17 +2,23 @@
 
 header {
   @include HeaderFooter;
-  @include backgroundOdd;
+  @include backgroundBrown;
   margin-bottom: 5vh;
+  padding: 10px;
+  @media (max-width: 1024px) {
+    height: auto;
+  }
   nav {
     display: flex;
     height: 100%;
     ul {
       @include reset-box;
       @include HeaderFooterUl;
+      @media (max-width: 1024px) {
+        @include grid-3-columns;
+      }
       li {
         text-align: center;
-        @include Li;
         a {
           @include HeaderFooterA;
           &:hover {

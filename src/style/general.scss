@@ -7,6 +7,47 @@ body{
   @include reset-box;
 }
 :root {
-  font-size: 18px;
+  font-size: 24px;
+  @media (max-width: 1024px) {
+    font-size: 18px;
+  }
 }
-
+section {
+  @include title-section;
+  border-radius: 20px;
+  box-shadow: $box-shadow;
+}
+h2 {
+  text-align: center;
+  font-size: 2em;
+  margin: 0 auto 20px auto;
+  font-family: $font-familyTitle;
+  @media (max-width: 768px) {
+    font-size: 16px;
+  }
+}
+h3 {
+  font-size: 1.5em;
+  margin: 10px auto 20px auto;
+  text-align: center;
+  font-family: $font-familyTitle;
+  @media (max-width: 768px) {
+    font-size: 15px;
+  }
+}
+p{
+  margin: 0;
+  text-align: center;
+  @media (max-width: 1024px) {
+    font-size: 14px;
+  }
+}
+ul{
+  padding: 0;
+}
+li {
+  list-style-type: none;
+  @media (max-width: 1024px) {
+    font-size: 14px;
+  }
+}

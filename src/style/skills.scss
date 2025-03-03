@@ -1,0 +1,48 @@
+@import "./mixin";
+
+.skills {
+  @include backgroundBlue;
+  @include skills;
+  article {
+    li {
+      img {
+        width: 30px;
+      }
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      gap: 5px;
+    }
+    .sass {
+      height: 30px;
+      background-color: rgba(213, 110, 163);
+      border-radius: 5px;
+      padding: 2px;
+    }
+  }
+  .acquired,
+  .OnTheProgram {
+    ul {
+      @include grid-3-columns;
+      gap: 30px;
+      @media (max-width: 768px) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+    }
+  }
+  .InProcess {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    ul {
+      padding-right: 30px;
+      @media (max-width: 768px) {
+        padding-right: 0;
+      }
+    }
+  }
+}

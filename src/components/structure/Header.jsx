@@ -1,4 +1,5 @@
 import "../../style/header.scss";
+import CV from "../../assets/CV/CV général.pdf"
 
 export default function Header() {
   return (
@@ -19,14 +20,19 @@ export default function Header() {
             <a href="#Compétences">Compétences</a>
           </li>
           <li>
-            <a href="#Carrousel">
+            <a href="#SlideShow">
               Le carrousel
               <br />
               des loisirs
             </a>
           </li>
           <li>
-            <a href="./assets/CV/CV général.pdf" target="_blank">
+            <a href="#Projects">
+              Mes Projets
+            </a>
+          </li>
+          <li>
+            <a href={CV} target="_blank">
               CV
             </a>
           </li>

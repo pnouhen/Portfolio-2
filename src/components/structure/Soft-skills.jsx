@@ -2,8 +2,8 @@ import "../../style/softskills.scss"
 
 export default function SoftSkills() {
     return (
-      <section className="SoftSkills">
-        <h2 id="SoftSkills">Savoir-être Professionnels</h2>
+      <section id="SoftSkills" className="SoftSkills">
+        <h2>Savoir-être Professionnels</h2>
         <ul>
           <li>Méthodique & Rigoureux</li>
           <li>Autonome & Indépendant dans la réalisation de ses missions</li>

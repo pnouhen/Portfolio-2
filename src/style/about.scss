@@ -1,12 +1,14 @@
 @import "./mixin";
 
 #About{
-    @include title-section;
-    @include section;
-    @include backgroundOdd;
-    h2{
-        @include h2;
-    }
+    @include backgroundBrown;
+    width: 67%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @media (max-width: 1024px) {
+        width: 90%;
+      }
     p{
         text-align: justify;
     }

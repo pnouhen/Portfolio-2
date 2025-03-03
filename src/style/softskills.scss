@@ -1,14 +1,18 @@
 @import "./mixin";
 
 .SoftSkills {
-  @include title-section;
-  @include section;
-  @include backgroundEven;
-  h2 {
-    @include h2;
-  }
+  @include backgroundBlue;
+  @include skills;
   ul {
-    @include ul-grid;
+    height: calc(100% - 120px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    @media (max-width: 1024px) {
+      height: auto;
+      justify-content: flex-start;
+      gap: 10px;
+    }
     li {
       display: flex;
       align-items: center;

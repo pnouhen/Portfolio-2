@@ -17,9 +17,6 @@
   justify-content: space-around;
 }
 
-@mixin Li {
-  list-style-type: none;
-}
 @mixin HeaderFooterA {
   color: black;
   text-decoration: none;
@@ -28,10 +25,10 @@
 @mixin HeaderFooterHover {
   font-weight: 900;
 }
-@mixin backgroundEven {
+@mixin backgroundBlue {
     background-image: url(https://www.stockvault.net/data/2022/10/16/295115/preview16.jpg);
 }
-@mixin backgroundOdd {
+@mixin backgroundBrown {
   background-image: url(https://www.stockvault.net/data/2022/10/16/295127/preview16.jpg);
 }
 
@@ -40,25 +37,13 @@
   background-size: cover;
   padding: 30px;
 }
-@mixin section {
-  width: 75%;
-  border-radius: 20px;
-  box-shadow: $box-shadow;
+@mixin skills{
+  width: 40%;
+  @media (max-width: 1024px) {
+    width: 90%;
+  }
 }
-@mixin h2 {
-  text-align: center;
-  font-size: 2em;
-  margin: 0 auto 20px auto;
-  font-family: $font-familyTitle;
-}
-@mixin h3 {
-  font-size: 1.5em;
-  margin: 10px auto 20px auto;
-  text-align: center;
-  font-family: $font-familyTitle;
-}
-@mixin ul-grid {
+@mixin grid-3-columns{
   display: grid;
-  grid-template-columns: 30% 30% 30%;
-  gap: 30px;
+      grid-template-columns: 30% 30% 30%;
 }

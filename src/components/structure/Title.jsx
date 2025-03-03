@@ -8,7 +8,7 @@ export default function Title() {
         src={picture}
         alt="Photo de l'auteur de la page"
       />
-      <div className="title-text">
+      <div className="title_text">
         <h1>Pierre Nouhen</h1>
         <p>
           Mon objectif

@@ -6,8 +6,8 @@ export default function About() {
       <h2>A propos</h2>
       <p>
         Après avoir <strong>travaillé plus de sept ans</strong> dans le secteur
-        de l’élevage, j’ai décidé d'opter pour une
-        <strong>reconversion professionnelle</strong>. Dans cette perspective,
+        de l’élevage, j’ai décidé d'opter pour une 
+        <strong> reconversion professionnelle</strong>. Dans cette perspective,
         j’ai effectué un <strong>bilan de compétences</strong> où j’ai pu
         réaliser que le métier de Développeur web et web mobile me correspond.
         Je suis toujours intéressé par les nouvelles technologies et

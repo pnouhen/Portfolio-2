@@ -1,72 +1,61 @@
 {
-    "articles": [
-      {
-        "title": "Acquises",
-        "skills": [
-          {
-            "logo": "./assets/Icon/HTML5.jpg",
-            "name": "HTML"
-          },
-          {
-            "logo": "./assets/Icon/CSS.svg",
-            "name": "CSS"
-          },
-          {
-            "logo": "./assets/Icon/sass-brands-solid.svg",
-            "name": "SASS"
-          },
-          {
-            "logo": "./assets/Icon/JS.jpg",
-            "name": "JavaScript"
-          }, 
-          {
-            "logo": "./assets/Icon/GIT.svg",
-            "name": "Git"
-          },
-          {
-            "logo": "./assets/Icon/github-brands-solid.svg",
-            "name": "GitGithub"
-          }
-        ]
-      },
-      {
-        "title": "En cours d'acquisition",
-        "skills": [
-          {
-            "logo": "./assets/Icon/react-brands-solid.svg",
-            "name": "Create React App"
-          }
-        ]
-      },
-      {
-        "title": "Au programme",
-        "skills": [
-          {
-            "logo": "./assets/Icon/Devtools.svg",
-            "name": "DevTools"
-          },
-          {
-            "logo": "./assets/Icon/node-js.svg",
-            "name": "Node.js"
-          },
-          {
-            "logo": "./assets/Icon/rest-api-blue-logo-22098.png",
-            "name": "API REST"
-          },
-          {
-            "logo": "./assets/Icon/icons8-express-js-50.png",
-            "name": "Express"
-          },
-          {
-            "logo": "./assets/Icon/mongodb.svg",
-            "name": "MongoDB"
-          },
-          {
-            "logo": "./assets/Icon/agile.png",
-            "name": "Méthode AGILE"
-          }
-        ]
-      }
-    ]
-  }
-  
+  "acquired": [
+    {
+      "logo": "../../src/assets/Icon/HTML5.jpg",
+      "name": "HTML"
+    },
+    {
+      "logo": "../../src/assets/Icon/CSS.svg",
+      "name": "CSS"
+    },
+    {
+      "logo": "../../src/assets/Icon/sass-brands-solid.svg",
+      "name": "SASS",
+      "class": "sass"
+    },
+    {
+      "logo": "../../src/assets/Icon/JS.jpg",
+      "name": "JavaScript"
+    },
+    {
+      "logo": "../../src/assets/Icon/GIT.svg",
+      "name": "Git"
+    },
+    {
+      "logo": "../../src/assets/Icon/github-brands-solid.svg",
+      "name": "GitGithub"
+    }
+  ],
+  "InProcess": [
+    {
+      "logo": "../../src/assets/Icon/react-brands-solid.svg",
+      "name": "Create React App"
+    }
+  ],
+  "OnTheProgram": [
+    {
+      "logo": "../../src/assets/Icon/Devtools.svg",
+      "name": "DevTools"
+    },
+    {
+      "logo": "../../src/assets/Icon/node-js.svg",
+      "name": "Node.js"
+    },
+    {
+      "logo": "../../src/assets/Icon/rest-api-blue-logo-22098.png",
+      "name": "API REST"
+    },
+    {
+      "logo": "../../src/assets/Icon/icons8-express-js-50.png",
+      "name": "Express"
+    },
+    {
+      "logo": "../../src/assets/Icon/mongodb.svg",
+      "name": "MongoDB"
+    },
+    {
+      "logo": "../../src/assets/Icon/agile.png",
+      "name": "Méthode AGILE"
+    }
+  ]
+}
