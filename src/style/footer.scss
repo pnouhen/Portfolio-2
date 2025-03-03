@@ -9,7 +9,7 @@ footer {
     width: 100%;
   }
   li {
-    @include HeaderFooterLi;
+    @include Li;
     a {
       @include HeaderFooterA;
       display: flex;

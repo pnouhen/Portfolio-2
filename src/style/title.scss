@@ -1,3 +1,42 @@
-img{
-    width: 100px;
-}
+@import "./variables";
+@import "./mixin";
+
+.title {
+    @include title-section;
+    height: 83vh;
+    background-image: url(https://www.stockvault.net/data/2022/10/16/295117/preview16.jpg);
+    box-shadow: $box-shadow;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .title-text {
+    height: calc(100% - 180px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .title img {
+    margin: auto;
+    width: 150px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+  h1 {
+    font-family: $font-familyTitle;
+    font-size: 4em;
+  }
+  .title p {
+    font-size: 2.5em;
+  }
+  span {
+    font-size: 1.5em;
+    text-align: center;
+  }
+  h1,
+  .title p,
+  #carrousel p {
+    text-align: center;
+  }
+  

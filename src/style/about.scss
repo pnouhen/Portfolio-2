@@ -1,0 +1,13 @@
+@import "./mixin";
+
+#About{
+    @include title-section;
+    @include section;
+    @include backgroundOdd;
+    h2{
+        @include h2;
+    }
+    p{
+        text-align: justify;
+    }
+}

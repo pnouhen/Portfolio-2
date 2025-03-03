@@ -6,10 +6,10 @@ export default function Header() {
       <nav>
         <ul>
           <li>
-            <a href="#Apropos">A propos</a>
+            <a href="#About">A propos</a>
           </li>
           <li>
-            <a href="#SEP">
+            <a href="#SoftSkills">
               Savoirs être
               <br />
               Professionnels

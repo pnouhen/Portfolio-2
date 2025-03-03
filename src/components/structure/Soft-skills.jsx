@@ -1,20 +1,22 @@
-import "../../style/about.scss"
+import "../../style/softskills.scss"
 
-export default function About() {
+export default function SoftSkills() {
     return (
-      <section id="Apropos" className="APropos">
-        <h2>A propos</h2>
-        <p>
-          Après avoir <strong>travaillé plus de sept ans</strong> dans le secteur
-          de l’élevage, j’ai décidé d'opter pour une
-          <strong>reconversion professionnelle</strong>. Dans cette perspective,
-          j’ai effectué un <strong>bilan de compétences</strong> où j’ai pu
-          réaliser que le métier de Développeur web et web mobile me correspond.
-          Je suis toujours intéressé par les nouvelles technologies et
-          l’informatique. Ce métier permettant de développer des interfaces web
-          adaptées aux besoins de son client sera une nouvelle étape dans cette
-          passion.
-        </p>
+      <section className="SoftSkills">
+        <h2 id="SoftSkills">Savoir-être Professionnels</h2>
+        <ul>
+          <li>Méthodique & Rigoureux</li>
+          <li>Autonome & Indépendant dans la réalisation de ses missions</li>
+          <li>Réfléchi & Goût pour la résolution de problème</li>
+          <li>Sens de l'écoute client</li>
+          <li>
+            Sens de l'organisation & Goût pour l'amélioration des process de
+            travail
+          </li>
+          <li>Cadence de travail rapide</li>
+          <li>Calme & Patient</li>
+          <li>Goût & Sens du travail collaboratif et en réseau</li>
+        </ul>
       </section>
     );
   }

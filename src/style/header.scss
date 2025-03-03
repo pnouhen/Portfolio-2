@@ -12,7 +12,7 @@ header {
       @include HeaderFooterUl;
       li {
         text-align: center;
-        @include HeaderFooterLi;
+        @include Li;
         a {
           @include HeaderFooterA;
           &:hover {

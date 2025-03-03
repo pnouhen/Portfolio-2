@@ -1,0 +1,19 @@
+@import "./mixin";
+
+.SoftSkills {
+  @include title-section;
+  @include section;
+  @include backgroundEven;
+  h2 {
+    @include h2;
+  }
+  ul {
+    @include ul-grid;
+    li {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+  }
+}
