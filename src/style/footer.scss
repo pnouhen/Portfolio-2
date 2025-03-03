@@ -1,0 +1,27 @@
+@import "./mixin";
+
+footer {
+  @include HeaderFooter;
+  @include backgroundOdd;
+  display: flex;
+  ul {
+    @include HeaderFooterUl;
+    width: 100%;
+  }
+  li {
+    @include HeaderFooterLi;
+    a {
+      @include HeaderFooterA;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      &:hover {
+        @include HeaderFooterHover;
+      }
+    }
+    img {
+      display: flex;
+      width: 1.5em;
+    }
+  }
+}

@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  font-size: 18px;
+}
+
+html,
+body,
+h1,
+h3,
+p,
+.SEP ul,
+.CP-AP {
+  margin: 0;
+  padding: 0;
+  height: auto;
+  width: 100%;
+}
+/* Text */
+h1,
+h2,
+h3 {
+  font-family: "montserrat", sans-serif;
+}
+h2 {
+  text-align: center;
+  font-size: 2em;
+  margin: 0 auto 20px auto;
+}
+h3 {
+  font-size: 1.5em;
+  margin: 10px auto 20px auto;
+  text-align: center;
+}
+p,
+li {
+  text-align: justify;
+}
+/* Section */
+.title,
+section {
+  box-shadow: 0px 0px 15px 4px #000000;
+}
+section {
+  width: 75%;
+  border-radius: 20px;
+}
+
+li {
+  list-style-type: none;
+}
+.APropos,
+.CP {
+  background-image: url(https://www.stockvault.net/data/2022/10/16/295127/preview16.jpg);
+}
+
+.title,
+.APropos,
+.SEP,
+.CP,
+#carrousel {
+  margin: 0 auto 5vh auto;
+  background-size: cover;
+  padding: 30px;
+}

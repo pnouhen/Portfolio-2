@@ -1,0 +1,33 @@
+@mixin reset-box {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: 100%;
+  }
+@mixin HeaderFooter {
+    height: 10vh;
+    box-shadow: 0px 0px 15px 4px #000000;
+}
+
+@mixin HeaderFooterUl{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@mixin HeaderFooterLi{
+    list-style-type: none;
+}
+
+@mixin HeaderFooterA{
+    color: black;
+    text-decoration: none;
+}
+@mixin HeaderFooterHover{
+    font-weight: 900;
+}
+
+@mixin backgroundOdd{
+    background-image: url(https://www.stockvault.net/data/2022/10/16/295127/preview16.jpg);
+
+}

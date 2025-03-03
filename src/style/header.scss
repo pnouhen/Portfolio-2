@@ -1,0 +1,25 @@
+@import "./mixin";
+
+header {
+  @include HeaderFooter;
+  @include backgroundOdd;
+  margin-bottom: 5vh;
+  nav {
+    display: flex;
+    height: 100%;
+    ul {
+      @include reset-box;
+      @include HeaderFooterUl;
+      li {
+        text-align: center;
+        @include HeaderFooterLi;
+        a {
+          @include HeaderFooterA;
+          &:hover {
+            @include HeaderFooterHover;
+          }
+        }
+      }
+    }
+  }
+}
