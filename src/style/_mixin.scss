@@ -50,9 +50,6 @@
 @mixin slideShow-Projects-width {
   width: 90%;
   max-width: 1000px;
-  @media (max-width: 768px) {
-    padding: 30px 10px 30px 10px;
-  }
 }
 @mixin slideShow-Projects-width-img {
   width: $width-project-img-p;

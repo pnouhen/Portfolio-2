@@ -13,13 +13,24 @@
   img {
     @include slideShow-Projects-width-img;
   }
+  a{
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: 900;
+    color: black;
+    @media (max-width: 1024px) {
+      font-size: 14px;
+    }
+    @media (max-width: 768px) {
+      font-size: 8px;
+    }
+  }
   p {
     width: $width-project-img-p;
-    margin-top: 20px;
     line-height: 30px;
     text-align: justify;
     @media (max-width: 768px) {
-      line-height: 15px;
+      line-height: 10px;
     }
   }
 }

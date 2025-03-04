@@ -10,7 +10,7 @@ export default function Footer() {
             target="_blank"
           >
             <img
-              src="/assets/icon/linkedin-brands-solid.svg"
+              src="/assets/Icon/linkedin-brands-solid.svg"
               alt="Logo Linkedin"
             />
             <p>Linkedin</p>
@@ -19,7 +19,7 @@ export default function Footer() {
         <li>
           <a href="https://github.com/pnouhen" target="_blank">
             <img
-              src="/assets/icon/github-brands-solid.svg"
+              src="/assets/Icon/github-brands-solid.svg"
               alt="Logo GitHub"
             />
             <p>Github</p>
