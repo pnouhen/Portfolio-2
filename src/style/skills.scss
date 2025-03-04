@@ -5,19 +5,19 @@
   @include skills;
   article {
     li {
-      img {
-        width: 30px;
-        object-fit: contain;
-        @media (max-width: 768px) {
-          height: 20px;          
-        }
-      }
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
       text-align: center;
       gap: 5px;
+      img {
+        width: 30px;
+        object-fit: contain;
+        @media (max-width: 768px) {
+          height: 20px;
+        }
+      }
     }
     .sass {
       height: 30px;

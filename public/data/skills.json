@@ -1,7 +1,7 @@
 {
   "acquired": [
     {
-      "logo": "/assets/icon/HTML5.jpg",
+      "logo": "/assets/icon/HTML5.svg",
       "name": "HTML"
     },
     {
@@ -14,7 +14,7 @@
       "class": "sass"
     },
     {
-      "logo": "/assets/icon/JS.jpg",
+      "logo": "/assets/icon/JS.svg",
       "name": "JavaScript"
     },
     {
