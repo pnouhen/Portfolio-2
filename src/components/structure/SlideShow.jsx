@@ -1,7 +1,7 @@
 import { useState } from "react";
 import GenerateData from "../service/GenerateData.jsx";
-import arrowLeft from "../../assets/Icon/arrow_left.svg";
-import arrowRight from "../../assets/Icon/arrow_right.svg";
+import arrowLeft from "/assets/Icon/arrow_left.svg";
+import arrowRight from "/assets/Icon/arrow_right.svg";
 import "../../style/slideShow.scss";
 
 export default function SlideShow() {

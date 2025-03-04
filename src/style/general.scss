@@ -30,6 +30,7 @@ h3 {
   }
 }
 p{
+  font-size: 1.2em;
   margin: 0;
   text-align: center;
   @media (max-width: 1024px) {
@@ -40,6 +41,7 @@ ul{
   padding: 0;
 }
 li {
+  font-size: 1.2em;
   list-style-type: none;
   @media (max-width: 1024px) {
     font-size: 14px;
