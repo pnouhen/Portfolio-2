@@ -1,5 +1,7 @@
 import { useState } from "react";
 import GenerateData from "../service/GenerateData.jsx";
+import arrowLeft from "/assets/icon/arrow_left.svg";
+import arrowRight from "/assets/icon/arrow_right.svg";
 import "../../style/slideShow.scss";
 
 export default function SlideShow() {
@@ -16,10 +18,13 @@ export default function SlideShow() {
           <h3>{data[currentIndex].title}</h3>
           <div className="SlideShow__move">
             <img
-              src="/assets/icon/arrow_left.svg"
-              alt="Flèche gauche" className="arrow"
+              src={arrowLeft}
+              alt="Flèche gauche"
+              className="arrow"
               onClick={() =>
-                setCurrentIndex((index) => (index - 1 + data.length) % data.length)
+                setCurrentIndex(
+                  (index) => (index - 1 + data.length) % data.length
+                )
               }
             />
             <img
@@ -28,23 +33,26 @@ export default function SlideShow() {
               className="imgSlideShow"
             />
             <img
-              src="/assets/icon/arrow_right.svg"
-              alt="Flèche droite" className="arrow"
+              src={arrowRight}
+              alt="Flèche droite"
+              className="arrow"
               onClick={() =>
                 setCurrentIndex((index) => (index + 1) % data.length)
               }
             />
-            </div>
-            <p>{data[currentIndex].text}</p>
-            
-            <ul className="dots">
-              {data.map((item, index) => (
-                <li
-                  key={index}
-                  className={`dot ${currentIndex === index ? 'dot_selected' : ''}`}
-                ></li>
-              ))}
-            </ul>
+          </div>
+          <p>{data[currentIndex].text}</p>
+
+          <ul className="dots">
+            {data.map((item, index) => (
+              <li
+                key={index}
+                className={`dot ${
+                  currentIndex === index ? "dot_selected" : ""
+                }`}
+              ></li>
+            ))}
+          </ul>
         </section>
       ) : (
         <div>Chargement en cours...</div>
