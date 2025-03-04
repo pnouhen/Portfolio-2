@@ -11,7 +11,7 @@ export default function SlideShow() {
 
   return (
     <>
-      <GenerateData setData={setData} link="../../../public/slideShow.json" />
+      <GenerateData setData={setData} link="/slideShow.json" />
       {data ? (
         <section id="SlideShow" className="SlideShow">
           <h2>Le carrousel des loisirs</h2>
