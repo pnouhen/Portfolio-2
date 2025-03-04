@@ -1,7 +1,5 @@
 import { useState } from "react";
 import GenerateData from "../service/GenerateData.jsx";
-import arrowLeft from "/assets/icon/arrow_left.svg";
-import arrowRight from "/assets/icon/arrow_right.svg";
 import "../../style/slideShow.scss";
 
 export default function SlideShow() {
@@ -18,7 +16,7 @@ export default function SlideShow() {
           <h3>{data[currentIndex].title}</h3>
           <div className="SlideShow__move">
             <img
-              src={arrowLeft}
+              src="/assets/icon/arrow_left.svg"
               alt="Flèche gauche"
               className="arrow"
               onClick={() =>
@@ -33,7 +31,7 @@ export default function SlideShow() {
               className="imgSlideShow"
             />
             <img
-              src={arrowRight}
+              src="/assets/icon/arrow_right.svg"
               alt="Flèche droite"
               className="arrow"
               onClick={() =>
