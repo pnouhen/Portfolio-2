@@ -1,60 +1,60 @@
 {
   "acquired": [
     {
-      "logo": "/assets/icon/HTML5.svg",
+      "logo": "/assets/Icon/HTML5.svg",
       "name": "HTML"
     },
     {
-      "logo": "/assets/icon/CSS.svg",
+      "logo": "/assets/Icon/CSS.svg",
       "name": "CSS"
     },
     {
-      "logo": "/assets/icon/sass-brands-solid.svg",
+      "logo": "/assets/Icon/sass-brands-solid.svg",
       "name": "SASS",
       "class": "sass"
     },
     {
-      "logo": "/assets/icon/JS.svg",
+      "logo": "/assets/Icon/JS.svg",
       "name": "JavaScript"
     },
     {
-      "logo": "/assets/icon/GIT.svg",
+      "logo": "/assets/Icon/GIT.svg",
       "name": "Git"
     },
     {
-      "logo": "/assets/icon/github-brands-solid.svg",
+      "logo": "/assets/Icon/github-brands-solid.svg",
       "name": "GitGithub"
     }
   ],
   "InProcess": [
     {
-      "logo": "/assets/icon/react-brands-solid.svg",
+      "logo": "/assets/Icon/react-brands-solid.svg",
       "name": "Create React App"
     }
   ],
   "OnTheProgram": [
     {
-      "logo": "/assets/icon/Devtools.svg",
+      "logo": "/assets/Icon/Devtools.svg",
       "name": "DevTools"
     },
     {
-      "logo": "/assets/icon/node-js.svg",
+      "logo": "/assets/Icon/node-js.svg",
       "name": "Node.js"
     },
     {
-      "logo": "/assets/icon/rest-api-blue-logo-22098.png",
+      "logo": "/assets/Icon/rest-api-blue-logo-22098.png",
       "name": "API REST"
     },
     {
-      "logo": "/assets/icon/icons8-express-js-50.png",
+      "logo": "/assets/Icon/Icons8-express-js-50.png",
       "name": "Express"
     },
     {
-      "logo": "/assets/icon/mongodb.svg",
+      "logo": "/assets/Icon/mongodb.svg",
       "name": "MongoDB"
     },
     {
-      "logo": "/assets/icon/agile.png",
+      "logo": "/assets/Icon/agile.png",
       "name": "Méthode AGILE"
     }
   ]

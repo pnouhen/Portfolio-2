@@ -4,7 +4,7 @@ export default function Title() {
   return (
     <div className="title">
       <img
-        src="/assets/icon/Photo-Profil.jpg"
+        src="/assets/img/Photo-Profil.jpg"
         alt="Photo de l'auteur de la page"
       />
       <div className="title_text">

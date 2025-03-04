@@ -16,7 +16,7 @@ export default function SlideShow() {
           <h3>{data[currentIndex].title}</h3>
           <div className="SlideShow__move">
             <img
-              src="/assets/icon/arrow_left.svg"
+              src="/assets/Icon/arrow_left.svg"
               alt="Flèche gauche"
               className="arrow"
               onClick={() =>
@@ -31,7 +31,7 @@ export default function SlideShow() {
               className="imgSlideShow"
             />
             <img
-              src="/assets/icon/arrow_right.svg"
+              src="/assets/Icon/arrow_right.svg"
               alt="Flèche droite"
               className="arrow"
               onClick={() =>
