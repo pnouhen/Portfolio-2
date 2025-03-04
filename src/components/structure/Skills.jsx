@@ -1,5 +1,5 @@
 import { useState } from "react";
-import GenerateData from "../service/GenerateData";
+import GenerateData from "../service/GenerateData.jsx";
 import "../../style/skills.scss";
 
 export default function Skills() {

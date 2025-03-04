@@ -1,10 +1,10 @@
-import Header from "../structure/Header";
-import Title from "../structure/Title";
-import About from "../structure/About";
-import SoftSkills from "../structure/Soft-skills";
-import Skills from "../structure/skills";
-import SlideShow from "../structure/SlideShow";
-import Footer from "../structure/Footer";
+import Header from "../structure/Header.jsx";
+import Title from "../structure/Title.jsx";
+import About from "../structure/About.jsx";
+import SoftSkills from "../structure/Soft-skills.jsx";
+import Skills from "../structure/Skills.jsx";
+import SlideShow from "../structure/SlideShow.jsx";
+import Footer from "../structure/Footer.jsx";
 import "../../style/general.scss";
 import "../../style/home.scss";
 
