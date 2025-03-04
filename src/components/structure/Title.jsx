@@ -1,11 +1,10 @@
-import picture from "/assets/img/Photo-Profil.jpg"
 import "../../style/title.scss";
 
 export default function Title() {
   return (
     <div className="title">
       <img
-        src={picture}
+        src="/assets/img/Photo-Profil.jpg"
         alt="Photo de l'auteur de la page"
       />
       <div className="title_text">

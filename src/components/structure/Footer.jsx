@@ -1,5 +1,3 @@
-import Linkedin from "/assets/icon/linkedin-brands-solid.svg"
-import GitHub from  "/assets/icon/github-brands-solid.svg"
 import "../../style/footer.scss";
 
 export default function Footer() {
@@ -12,7 +10,7 @@ export default function Footer() {
             target="_blank"
           >
             <img
-              src={Linkedin}
+              src="/assets/icon/linkedin-brands-solid.svg"
               alt="Logo Linkedin"
             />
             <p>Linkedin</p>
@@ -21,7 +19,7 @@ export default function Footer() {
         <li>
           <a href="https://github.com/pnouhen" target="_blank">
             <img
-              src={GitHub}
+              src="/assets/icon/github-brands-solid.svg"
               alt="Logo GitHub"
             />
             <p>Github</p>
