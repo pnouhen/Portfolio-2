@@ -1,60 +1,60 @@
 {
   "acquired": [
     {
-      "logo": "../../src/assets/Icon/HTML5.jpg",
+      "logo": "../src/assets/Icon/HTML5.jpg",
       "name": "HTML"
     },
     {
-      "logo": "../../src/assets/Icon/CSS.svg",
+      "logo": "../src/assets/Icon/CSS.svg",
       "name": "CSS"
     },
     {
-      "logo": "../../src/assets/Icon/sass-brands-solid.svg",
+      "logo": "../src/assets/Icon/sass-brands-solid.svg",
       "name": "SASS",
       "class": "sass"
     },
     {
-      "logo": "../../src/assets/Icon/JS.jpg",
+      "logo": "../src/assets/Icon/JS.jpg",
       "name": "JavaScript"
     },
     {
-      "logo": "../../src/assets/Icon/GIT.svg",
+      "logo": "../src/assets/Icon/GIT.svg",
       "name": "Git"
     },
     {
-      "logo": "../../src/assets/Icon/github-brands-solid.svg",
+      "logo": "../src/assets/Icon/github-brands-solid.svg",
       "name": "GitGithub"
     }
   ],
   "InProcess": [
     {
-      "logo": "../../src/assets/Icon/react-brands-solid.svg",
+      "logo": "../src/assets/Icon/react-brands-solid.svg",
       "name": "Create React App"
     }
   ],
   "OnTheProgram": [
     {
-      "logo": "../../src/assets/Icon/Devtools.svg",
+      "logo": "../src/assets/Icon/Devtools.svg",
       "name": "DevTools"
     },
     {
-      "logo": "../../src/assets/Icon/node-js.svg",
+      "logo": "../src/assets/Icon/node-js.svg",
       "name": "Node.js"
     },
     {
-      "logo": "../../src/assets/Icon/rest-api-blue-logo-22098.png",
+      "logo": "../src/assets/Icon/rest-api-blue-logo-22098.png",
       "name": "API REST"
     },
     {
-      "logo": "../../src/assets/Icon/icons8-express-js-50.png",
+      "logo": "../src/assets/Icon/icons8-express-js-50.png",
       "name": "Express"
     },
     {
-      "logo": "../../src/assets/Icon/mongodb.svg",
+      "logo": "../src/assets/Icon/mongodb.svg",
       "name": "MongoDB"
     },
     {
-      "logo": "../../src/assets/Icon/agile.png",
+      "logo": "../src/assets/Icon/agile.png",
       "name": "Méthode AGILE"
     }
   ]

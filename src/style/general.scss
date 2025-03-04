@@ -6,12 +6,6 @@
 body{
   @include reset-box;
 }
-:root {
-  font-size: 24px;
-  @media (max-width: 1024px) {
-    font-size: 18px;
-  }
-}
 section {
   @include title-section;
   border-radius: 20px;
