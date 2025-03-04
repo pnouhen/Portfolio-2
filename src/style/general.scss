@@ -1,4 +1,6 @@
-@import "./mixin.scss";
+@use "./mixin" as *;
+@use "./variables" as *;
+
 * {
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;

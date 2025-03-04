@@ -1,6 +1,5 @@
-@import "./variables.scss";
-@import "./mixin.scss";
-
+@use "./mixin" as *;
+@use "./variables" as *;
 .title {
   @include title-section;
   height: 83vh;
