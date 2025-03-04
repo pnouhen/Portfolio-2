@@ -1,7 +1,7 @@
 import { useState } from "react";
 import GenerateData from "../service/GenerateData.jsx";
-import arrowLeft from "/assets/Icon/arrow_left.svg";
-import arrowRight from "/assets/Icon/arrow_right.svg";
+import arrowLeft from "/assets/icon/arrow_left.svg";
+import arrowRight from "/assets/icon/arrow_right.svg";
 import "../../style/slideShow.scss";
 
 export default function SlideShow() {
@@ -11,7 +11,7 @@ export default function SlideShow() {
 
   return (
     <>
-      <GenerateData setData={setData} link="/slideShow.json" />
+      <GenerateData setData={setData} link="/data/slideShow.json" />
       {data ? (
         <section id="SlideShow" className="SlideShow">
           <h2>Le carrousel des loisirs</h2>
@@ -27,6 +27,7 @@ export default function SlideShow() {
             <img
               src={data[currentIndex].picture}
               alt={data[currentIndex].title}
+              className="imgSlideShow"
             />
             <img
               src={arrowRight}

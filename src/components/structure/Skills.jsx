@@ -7,7 +7,7 @@ export default function Skills() {
   const [data, setData] = useState(null);
   return (
     <>
-      <GenerateData setData={setData} link="/skills.json" />
+      <GenerateData setData={setData} link="/data/skills.json" />
       {data ? (
         <section id="Compétences" className="skills">
           <h2 >Compétences</h2>

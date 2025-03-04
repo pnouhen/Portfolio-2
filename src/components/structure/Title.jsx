@@ -1,4 +1,4 @@
-import picture from "/assets/Images/Photo-Profil.jpg"
+import picture from "/assets/img/Photo-Profil.jpg"
 import "../../style/title.scss";
 
 export default function Title() {

@@ -1,5 +1,5 @@
-import Linkedin from "/assets/Icon/linkedin-brands-solid.svg"
-import GitHub from  "/assets/Icon/github-brands-solid.svg"
+import Linkedin from "/assets/icon/linkedin-brands-solid.svg"
+import GitHub from  "/assets/icon/github-brands-solid.svg"
 import "../../style/footer.scss";
 
 export default function Footer() {

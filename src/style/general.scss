@@ -16,6 +16,9 @@ h2 {
   font-size: 2em;
   margin: 0 auto 20px auto;
   font-family: $font-familyTitle;
+  @media (max-width: 1024px) {
+    font-size: 24px;
+  }
   @media (max-width: 768px) {
     font-size: 16px;
   }
@@ -25,8 +28,11 @@ h3 {
   margin: 10px auto 20px auto;
   text-align: center;
   font-family: $font-familyTitle;
+  @media (max-width: 1024px) {
+    font-size: 20px;
+  }
   @media (max-width: 768px) {
-    font-size: 15px;
+    font-size: 14px;
   }
 }
 p{
@@ -34,7 +40,10 @@ p{
   margin: 0;
   text-align: center;
   @media (max-width: 1024px) {
-    font-size: 14px;
+    font-size: 16px;
+  }
+  @media (max-width: 768px) {
+    font-size: 10px;
   }
 }
 ul{
@@ -44,6 +53,9 @@ li {
   font-size: 1.2em;
   list-style-type: none;
   @media (max-width: 1024px) {
-    font-size: 14px;
+    font-size: 16px;
+  }
+  @media (max-width: 768px) {
+    font-size: 10px;
   }
 }

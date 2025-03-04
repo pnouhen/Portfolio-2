@@ -16,6 +16,7 @@ header {
       @include HeaderFooterUl;
       @media (max-width: 1024px) {
         @include grid-3-columns;
+        gap: 10px;
       }
       li {
         text-align: center;

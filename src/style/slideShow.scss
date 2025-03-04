@@ -1,11 +1,8 @@
 @import "./mixin";
+
 .SlideShow {
-    width: 90%;
-    max-width: 1000px;
   @include backgroundBrown;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  @include slideShow-Projects-width;
   &__move {
     display: flex;
     justify-content: center;
@@ -13,15 +10,20 @@
     gap: 20px;
     .arrow {
       width: 20px;
-    }
-    img {
-      width: 80%;
       object-fit: contain;
+      cursor: pointer;
+    }
+    .imgSlideShow {
+      width: 90%;
+      max-width: 1000px;
     }
   }
   p {
-    margin-top: 10px;
-    font-size: 1.2em;
+    margin-top: 20px;
+    font-size: 22px;
+    @media (max-width: 768px) {
+      font-size: 12px;
+    }
   }
   .dots {
     padding: 5px;
@@ -29,17 +31,15 @@
     justify-content: center;
     margin: 10px 0 10px 0;
     .dot {
-    margin-inline: 5px;
-    width: 10px;
-    height: 10px;
-    border: 3px solid black;
-    border-radius: 100%;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-    &_selected {
-      background-color: black;
+      margin-inline: 5px;
+      width: 10px;
+      height: 10px;
+      border: 3px solid black;
+      border-radius: 100%;
+      box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+      &_selected {
+        background-color: black;
+      }
     }
   }
-  }
 }
-
-

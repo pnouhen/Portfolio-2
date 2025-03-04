@@ -1,0 +1,61 @@
+{
+  "acquired": [
+    {
+      "logo": "/assets/icon/HTML5.jpg",
+      "name": "HTML"
+    },
+    {
+      "logo": "/assets/icon/CSS.svg",
+      "name": "CSS"
+    },
+    {
+      "logo": "/assets/icon/sass-brands-solid.svg",
+      "name": "SASS",
+      "class": "sass"
+    },
+    {
+      "logo": "/assets/icon/JS.jpg",
+      "name": "JavaScript"
+    },
+    {
+      "logo": "/assets/icon/GIT.svg",
+      "name": "Git"
+    },
+    {
+      "logo": "/assets/icon/github-brands-solid.svg",
+      "name": "GitGithub"
+    }
+  ],
+  "InProcess": [
+    {
+      "logo": "/assets/icon/react-brands-solid.svg",
+      "name": "Create React App"
+    }
+  ],
+  "OnTheProgram": [
+    {
+      "logo": "/assets/icon/Devtools.svg",
+      "name": "DevTools"
+    },
+    {
+      "logo": "/assets/icon/node-js.svg",
+      "name": "Node.js"
+    },
+    {
+      "logo": "/assets/icon/rest-api-blue-logo-22098.png",
+      "name": "API REST"
+    },
+    {
+      "logo": "/assets/icon/icons8-express-js-50.png",
+      "name": "Express"
+    },
+    {
+      "logo": "/assets/icon/mongodb.svg",
+      "name": "MongoDB"
+    },
+    {
+      "logo": "/assets/icon/agile.png",
+      "name": "Méthode AGILE"
+    }
+  ]
+}

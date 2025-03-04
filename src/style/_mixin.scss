@@ -26,7 +26,7 @@
   font-weight: 900;
 }
 @mixin backgroundBlue {
-    background-image: url(https://www.stockvault.net/data/2022/10/16/295115/preview16.jpg);
+  background-image: url(https://www.stockvault.net/data/2022/10/16/295115/preview16.jpg);
 }
 @mixin backgroundBrown {
   background-image: url(https://www.stockvault.net/data/2022/10/16/295127/preview16.jpg);
@@ -37,13 +37,25 @@
   background-size: cover;
   padding: 30px;
 }
-@mixin skills{
+@mixin skills {
   width: 40%;
   @media (max-width: 1024px) {
     width: 90%;
   }
 }
-@mixin grid-3-columns{
+@mixin grid-3-columns {
   display: grid;
-      grid-template-columns: 30% 30% 30%;
+  grid-template-columns: 30% 30% 30%;
+}
+@mixin slideShow-Projects-width {
+  width: 90%;
+  max-width: 1000px;
+  @media (max-width: 768px) {
+    padding: 30px 10px 30px 10px;
+  }
+}
+@mixin slideShow-Projects-width-img {
+  width: $width-project-img-p;
+  object-fit: contain;
+  box-shadow: $box-shadow;
 }
