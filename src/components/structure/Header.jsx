@@ -1,5 +1,5 @@
 import "../../style/header.scss";
-import CV from "/assets/CV/CV_Pierre-Nouhen.pdf"
+import CV from "CV_Pierre_NOUHEN_Developpeur_Web.pdf"
 
 export default function Header() {
   return (
