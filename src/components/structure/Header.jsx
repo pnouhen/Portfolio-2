@@ -1,43 +1,24 @@
 import "../../style/header.scss";
-import CV from "CV_Pierre_NOUHEN_Developpeur_Web.pdf"
-
 export default function Header() {
   return (
     <header>
-      <nav>
-        <ul>
-          <li>
-            <a href="#About">A propos</a>
-          </li>
-          <li>
-            <a href="#SoftSkills">
-              Savoirs être
-              <br />
-              Professionnels
-            </a>
-          </li>
-          <li>
-            <a href="#Compétences">Compétences</a>
-          </li>
-          <li>
-            <a href="#SlideShow">
-              Le carrousel
-              <br />
-              des loisirs
-            </a>
-          </li>
-          <li>
-            <a href="#Projects">
-              Mes Projets
-            </a>
-          </li>
-          <li>
-            <a href={CV} target="_blank">
-              CV
-            </a>
-          </li>
-        </ul>
-      </nav>
+      <img
+        src="/assets/img/Photo-Profil.webp"
+        alt="Photo de l'auteur de la page"
+      />
+      <div className="header___text">
+        <h1>Pierre Nouhen</h1>
+        <h2>Developpeur Web / Web mobile.</h2>
+        <span>
+          En formation avec le GRETA du Limousin et OpenClassrooms depuis le 09
+          décembre 2024
+        </span>
+        <a
+          href="../../../public/assets/CV/CV_Pierre_NOUHEN_Developpeur_Web.pdf"
+        >
+        Mon CV
+        </a>
+      </div>
     </header>
   );
 }

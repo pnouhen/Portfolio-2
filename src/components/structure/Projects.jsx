@@ -9,7 +9,7 @@ export default function Projects(){
          <GenerateData setData={setData} link="/data/projects.json" />
         {data ?(
             <section className="projects">
-                <h2 id="Projects">Projets</h2>
+                <h2>Projets</h2>
                 {data.map((item, index) =>(
                 <article key={index}>
                     <h3>{item.title}</h3>

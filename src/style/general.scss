@@ -2,62 +2,52 @@
 @use "./variables" as *;
 
 * {
+  margin: 0;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 body{
-  @include reset-box;
+  margin: auto;
+  max-width: 1440px;
 }
-section {
-  @include title-section;
+section{
+  @include background;
+  @include displayGap;
+  gap: 20px;
   border-radius: 20px;
-  box-shadow: $box-shadow;
-}
-h2 {
-  text-align: center;
-  font-size: 36px;
-  margin: 0 auto 20px auto;
-  font-family: $font-familyTitle;
   @media (max-width: 1024px) {
-    font-size: 24px;
+    width: 90%;
+  }
+}
+h2{
+  font-family: 'Candal', sans-serif;
+  font-size: 24px;
+  text-align: center;
+  @media (max-width: 1024px) {
+    font-size: 18px;
   }
   @media (max-width: 768px) {
     font-size: 16px;
   }
 }
-h3 {
-  font-size: 30px;
-  margin: 10px auto 20px auto;
+
+h3{
+  font-size: 18px;
   text-align: center;
-  font-family: $font-familyTitle;
   @media (max-width: 1024px) {
-    font-size: 20px;
+    font-size: 16px;
   }
   @media (max-width: 768px) {
     font-size: 14px;
   }
 }
-p{
-  font-size: 24px;
-  margin: 0;
-  text-align: center;
+p, li{
+  font-size: 16px;
   @media (max-width: 1024px) {
-    font-size: 16px;
-  }
-  @media (max-width: 768px) {
-    font-size: 10px;
+    font-size: 14px;
   }
 }
+
 ul{
   padding: 0;
-}
-li {
-  font-size: 24px;
-  list-style-type: none;
-  @media (max-width: 1024px) {
-    font-size: 16px;
-  }
-  @media (max-width: 768px) {
-    font-size: 10px;
-  }
 }

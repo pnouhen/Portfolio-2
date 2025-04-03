@@ -1,58 +1,11 @@
 @use "./variables" as *;
 
-@mixin reset-box {
-  margin: 0;
-  padding: 0;
-  height: auto;
-  width: 100%;
+@mixin background{
+  background-color: #D1ECF3;
+  box-shadow: 0px 0px 20px 5px rgb(0, 0, 0, 0.5);
+  padding: 20px;
 }
-@mixin HeaderFooter {
-  height: 10vh;
-  box-shadow: $box-shadow;
-}
-
-@mixin HeaderFooterUl {
+@mixin displayGap {
   display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-@mixin HeaderFooterA {
-  color: black;
-  text-decoration: none;
-  text-align: justify;
-}
-@mixin HeaderFooterHover {
-  font-weight: 900;
-}
-@mixin backgroundBlue {
-  background-image: url(https://www.stockvault.net/data/2022/10/16/295115/preview16.jpg);
-}
-@mixin backgroundBrown {
-  background-image: url(https://www.stockvault.net/data/2022/10/16/295127/preview16.jpg);
-}
-
-@mixin title-section {
-  margin: 0 auto 5vh auto;
-  background-size: cover;
-  padding: 30px;
-}
-@mixin skills {
-  width: 40%;
-  @media (max-width: 1024px) {
-    width: 90%;
-  }
-}
-@mixin grid-3-columns {
-  display: grid;
-  grid-template-columns: 30% 30% 30%;
-}
-@mixin slideShow-Projects-width {
-  width: 90%;
-  max-width: 1000px;
-}
-@mixin slideShow-Projects-width-img {
-  width: $width-project-img-p;
-  object-fit: contain;
-  box-shadow: $box-shadow;
+  flex-direction: column;
 }

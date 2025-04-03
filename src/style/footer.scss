@@ -1,26 +1,22 @@
 @use "./mixin" as *;
 
 footer {
-  @include HeaderFooter;
-  @include backgroundBrown;
-  display: flex;
+  @include background;
+  margin-top: 40px;
   ul {
-    @include HeaderFooterUl;
-    width: 100%;
-  }
-  li {
-    a {
-      @include HeaderFooterA;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      &:hover {
-        @include HeaderFooterHover;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    li {
+      a {
+        @include displayGap;
+        align-items: center;
+        color: black;
+        text-decoration: none;
+        img {
+          height: 30px;
+        }
       }
-    }
-    img {
-      display: flex;
-      width: 1.5em;
     }
   }
 }

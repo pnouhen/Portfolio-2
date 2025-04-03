@@ -13,12 +13,12 @@ export default function SlideShow() {
       {data ? (
         <section id="SlideShow" className="SlideShow">
           <h2>Le carrousel des loisirs</h2>
-          <h3>{data[currentIndex].title}</h3>
           <div className="SlideShow__move">
+          <h3>{data[currentIndex].title}</h3>
             <img
-              src="/assets/Icon/arrow_left.svg"
+              src="/assets/Icon/chevron_left.svg"
               alt="Flèche gauche"
-              className="arrow"
+              className="chevronLeft"
               onClick={() =>
                 setCurrentIndex(
                   (index) => (index - 1 + data.length) % data.length
@@ -31,15 +31,15 @@ export default function SlideShow() {
               className="imgSlideShow"
             />
             <img
-              src="/assets/Icon/arrow_right.svg"
+              src="/assets/Icon/chevron_right.svg"
               alt="Flèche droite"
-              className="arrow"
+              className="chevronRight"
               onClick={() =>
                 setCurrentIndex((index) => (index + 1) % data.length)
               }
             />
-          </div>
           <p>{data[currentIndex].text}</p>
+          </div>
 
           <ul className="dots">
             {data.map((item, index) => (

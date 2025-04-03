@@ -2,7 +2,7 @@ import "../../style/about.scss"
 
 export default function About() {
   return (
-    <section id="About">
+    <section className="About">
       <h2>A propos</h2>
       <p>
         Après avoir <strong>travaillé plus de sept ans</strong> dans le secteur

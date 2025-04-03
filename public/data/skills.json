@@ -23,13 +23,13 @@
     },
     {
       "logo": "/assets/Icon/github-brands-solid.svg",
-      "name": "GitGithub"
+      "name": "Github"
     }
   ],
   "InProcess": [
     {
       "logo": "/assets/Icon/react-brands-solid.svg",
-      "name": "Create React App"
+      "name": "React"
     }
   ],
   "OnTheProgram": [

@@ -1,32 +1,70 @@
 @use "./mixin" as *;
 
 header {
-  @include HeaderFooter;
-  @include backgroundBrown;
-  margin-bottom: 5vh;
-  padding: 10px;
+  @include background;
+  height: 400px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+  padding: 40px;
+  margin-bottom: 40px;
   @media (max-width: 1024px) {
-    height: auto;
+    height: 280px;
+    gap: 20px;
+    padding: 20px;
   }
-  nav {
+  @media (max-width: 768px) {
+    height: 230px;
+  }
+  img {
+    height: 250px;
+    border-radius: 20px;
+    @media (max-width: 1024px) {
+      height: 200px;
+    }
+    @media (max-width: 768px) {
+      height: 100px;
+    }
+  }
+  .header___text {
     display: flex;
-    height: 100%;
-    ul {
-      @include reset-box;
-      @include HeaderFooterUl;
+    flex-direction: column;
+    gap: 30px;
+    @media (max-width: 768px) {
+gap: 20px;    }
+    h1 {
+      font-family: "Rubik Mono One", sans-serif;
+      font-size: 48px;
       @media (max-width: 1024px) {
-        @include grid-3-columns;
-        gap: 10px;
+        font-size: 32px;
       }
-      li {
-        text-align: center;
-        a {
-          @include HeaderFooterA;
-          &:hover {
-            @include HeaderFooterHover;
-          }
-        }
+      @media (max-width: 768px) {
+        font-size: 18px;
       }
+    }
+    h2 {
+      font-family: "Montserrat", sans-serif;
+      font-size: 32px;
+      text-align: inherit;
+      @media (max-width: 768px) {
+        font-size: 16px;
+      }
+    }
+    span,
+    a {
+      font-size: 24px;
+      @media (max-width: 1024px) {
+        font-size: 18px;
+      }
+      @media (max-width: 768px) {
+        font-size: 14px;
+      }
+    }
+    a {
+      color: black;
+      font-weight: 700;
+      width: 100px;
     }
   }
 }

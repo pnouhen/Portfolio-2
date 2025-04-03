@@ -1,26 +1,24 @@
 import Header from "../structure/Header.jsx";
-import Title from "../structure/Title.jsx";
 import About from "../structure/About.jsx";
-import SoftSkills from "../structure/Soft-skills.jsx";
 import Skills from "../structure/Skills.jsx";
+import SoftSkills from "../structure/SoftSkills.jsx";
 import SlideShow from "../structure/SlideShow.jsx";
-import Projects from "../structure/Projects"
-import Footer from "../structure/Footer.jsx";
+import Projects from "../structure/Projects.jsx";
+import Footer from "../structure/Footer.jsx"
 import "../../style/general.scss";
 import "../../style/home.scss";
-
 export default function Home() {
   return (
     <>
       <Header />
-      <Title />
+      <About />
       <div className="container">
-        <About />
-      <SoftSkills />
-      <Skills />
+          <Skills />
+          <SoftSkills />
+          <SlideShow />
+          <Projects />
       </div>
-      <SlideShow />
-      <Projects />
+
       <Footer />
     </>
   );

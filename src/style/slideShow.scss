@@ -1,44 +1,68 @@
 @use "./mixin" as *;
 
 .SlideShow {
-  @include backgroundBrown;
-  @include slideShow-Projects-width;
-  &__move {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    .arrow {
-      width: 20px;
-      object-fit: contain;
-      cursor: pointer;
-    }
-    .imgSlideShow {
-      width: 90%;
-      max-width: 1000px;
-    }
+  grid-column: 1;
+  grid-row: 3;
+  position: relative;
+  @media (max-width: 1024px) {
+    order: 1;
   }
-  p {
-    margin-top: 20px;
-    @media (max-width: 768px) {
-      font-size: 12px;
+  .SlideShow__move{
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: calc(100% - 4px);
+      background: rgba(255, 255, 255, 0.7);
+      z-index: 1;
     }
+    .chevronLeft, .chevronRight{
+    position: absolute;
+    height: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
   }
-  .dots {
+  h3, p{
+    position: absolute;  
+    z-index: 1;
     padding: 5px;
+    width: 100%;
+    text-align: center;
+  }
+  h3{
+    top: 7%;
+  }
+  p{
+    bottom: 7%;
+  }
+  .chevronLeft{
+    left: 5px;
+  }
+  .chevronRight{
+    right: 5px;
+  }
+  .imgSlideShow{
+    color: white;
+    width: 100%;
+}
+  }
+  ul{
     display: flex;
     justify-content: center;
-    margin: 10px 0 10px 0;
-    .dot {
-      margin-inline: 5px;
+    gap:10px;
+    list-style: none;
+    .dot{
+      border-radius: 50%;
+      border: 2px solid black;
       width: 10px;
       height: 10px;
-      border: 3px solid black;
-      border-radius: 100%;
-      box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-      &_selected {
-        background-color: black;
-      }
+    }
+    .dot_selected{
+      background-color: black;
     }
   }
 }

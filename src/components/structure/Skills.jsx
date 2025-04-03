@@ -12,7 +12,7 @@ export default function Skills() {
         <section id="Compétences" className="skills">
           <h2 >Compétences</h2>
           <article className="acquired">
-            <h3>Acquises</h3>
+            <h3>Acquises :</h3>
             <ul>
               {data.acquired.map((item, index) => (
                 <li key={index}>
@@ -27,7 +27,7 @@ export default function Skills() {
             </ul>
           </article>
           <article className="InProcess">
-            <h3>En cours d'acquisition</h3>
+            <h3>En cours d'acquisition :</h3>
             <ul>
               {data.InProcess.map((item, index) => (
                 <li key={index}>
@@ -42,7 +42,7 @@ export default function Skills() {
             </ul>
           </article>
           <article className="OnTheProgram">
-            <h3>Au programme</h3>
+            <h3>Au programme :</h3>
             <ul>
               {data.OnTheProgram.map((item, index) => (
                 <li key={index}>
