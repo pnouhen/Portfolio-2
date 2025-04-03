@@ -1,21 +1,21 @@
 [
   {
-    "picture": "/assets/img/slide/slide1.jpg",
+    "picture": "/assets/img/slide/slide1.webp",
     "title": "La capoeira",
     "text": "Développer ma capacité d'improvisation."
   },
   {
-    "picture": "/assets/img/slide/slide2.jpg",
+    "picture": "/assets/img/slide/slide2.webp",
     "title": "Le crossfit",
     "text": "Repousser mes limites."
   },
   {
-    "picture": "/assets/img/slide/slide3.jpg",
+    "picture": "/assets/img/slide/slide3.webp",
     "title": "La batterie",
     "text": "Développer mon sens du rythme et ma créativité"
   },
   {
-    "picture": "/assets/img/slide/slide4.jpg",
+    "picture": "/assets/img/slide/slide4.webp",
     "title": " Pratique d'un sport saisonnier :",
     "text": "Plongée sous-marine, surf et ski."
   }

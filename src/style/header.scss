@@ -18,12 +18,15 @@ header {
     height: 230px;
   }
   img {
+    width: 168px;
     height: 250px;
     border-radius: 20px;
     @media (max-width: 1024px) {
+      width: 135px;
       height: 200px;
     }
     @media (max-width: 768px) {
+      width: 67px;
       height: 100px;
     }
   }

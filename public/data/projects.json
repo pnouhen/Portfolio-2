@@ -1,7 +1,7 @@
 [
   {
     "title": "OhMyFood",
-    "img": "/assets/projects/OhMyFood.png",
+    "img": "/assets/projects/OhMyFood.webp",
     "description": "Le projet initial d'OpenClassrooms avait pour objectif de nous apprendre à utiliser SASS ainsi que les animations CSS pour créer un site \"mobile first\". Ce site devait répertorier les menus de restaurants gastronomiques, en mettant l'accent sur une expérience utilisateur optimale sur mobile. Pour ce faire, j'ai choisi d'intégrer React afin de faciliter l'ajout ou la suppression de restaurants et de leurs menus correspondants.",
     "link": "https://ohmyfood-pierre-nouhen.vercel.app/"
   }

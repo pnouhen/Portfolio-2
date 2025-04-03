@@ -18,7 +18,7 @@ export default function Skills() {
                 <li key={index}>
                   <img
                     src={item.logo}
-                    alt={item.name}
+                    alt={`Logo de ${item.name}`}
                     className={item.class}
                   ></img>
                   {item.name}
@@ -33,7 +33,7 @@ export default function Skills() {
                 <li key={index}>
                   <img
                     src={item.logo}
-                    alt={item.name}
+                    alt={`Logo de ${item.name}`}
                     className={item.class}
                   ></img>
                   {item.name}
@@ -48,7 +48,7 @@ export default function Skills() {
                 <li key={index}>
                   <img
                     src={item.logo}
-                    alt={item.name}
+                    alt={`Logo de ${item.name}`}
                     className={item.class}
                   ></img>
                   {item.name}

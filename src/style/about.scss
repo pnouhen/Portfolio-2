@@ -2,12 +2,10 @@
 
 .About{
     width: 67%;
+    min-height: 120px;
     align-items: center;
     margin: 0 auto 40px auto;
     @media (max-width: 1024px) {
         width: 90%;
       }
-    p{
-        text-align: justify;
-    }
 }
