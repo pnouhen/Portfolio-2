@@ -1,4 +1,4 @@
-import "../../style/softSkills.scss";
+import "../../style/skills.scss";
 
 export default function SoftSkills() {
     return (
