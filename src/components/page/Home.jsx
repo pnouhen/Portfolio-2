@@ -5,7 +5,6 @@ import SoftSkills from "../structure/SoftSkills.jsx";
 import SlideShow from "../structure/SlideShow.jsx";
 import Projects from "../structure/Projects.jsx";
 import Footer from "../structure/Footer.jsx"
-import "../../style/general.scss";
 import "../../style/home.scss";
 export default function Home() {
   return (
@@ -18,7 +17,6 @@ export default function Home() {
           <SlideShow />
           <Projects />
       </div>
-
       <Footer />
     </>
   );
