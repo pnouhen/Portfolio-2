@@ -14,7 +14,7 @@ export default function Header() {
           décembre 2024
         </span>
         <a
-          href="../../../public/assets/CV/CV_Pierre_NOUHEN_Developpeur_Web.pdf"
+          href="/assets/CV/CV_Pierre_NOUHEN_Developpeur_Web.pdf"
         >
         Mon CV
         </a>
