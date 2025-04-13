@@ -51,23 +51,3 @@ p, li{
 ul{
   padding: 0;
 }
-
-// Pré-chargement des polices
-
-@font-face {
-  font-family: 'Candal';
-  src: url('https://fonts.gstatic.com/s/candal/v9/2D1R2_HzVFAqMlj5LmkdFQC2aNwQ.woff2') format('woff2');
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Montserrat';
-  src: url('https://fonts.gstatic.com/s/montserrat/v16/Jt2d3i5UphCVdRf4jjZQyLkg.woff2') format('woff2');
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Rubik Mono One';
-  src: url('https://fonts.gstatic.com/s/rubikmonoone/v9/pxiDyp5ibXj7ptW9vGS7_xEZT9p2ywXx0g.woff2') format('woff2');
-  font-display: swap;
-}
