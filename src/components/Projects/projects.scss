@@ -1,5 +1,5 @@
-@use "./mixin" as *;
-@use "./variables" as *;
+@import "../../style/mixin";
+@import "../../style/variables";
 
 .projects {
   display: grid;
