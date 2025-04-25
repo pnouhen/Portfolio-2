@@ -59,7 +59,6 @@
 
 .SoftSkills {
   grid-column: 2;
-  min-height: 420px;
   ul {
     @include displayGap;
     justify-content: space-around;

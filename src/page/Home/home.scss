@@ -1,18 +1,21 @@
 @import "../../style/mixin";
 
-.container{
-    display: grid;
-    grid-template-columns: calc(38% - 20px) calc(62% - 20px);
-    grid-template-rows: 413px 173px auto; 
-    gap: 40px;
-    padding: 0 20px 0 20px;
-    @media (max-width: 1024px){
-        @include displayGap;
-        align-items: center;
-        padding: 0;
-    }
+.container {
+  display: grid;
+  grid-template-columns: 38fr 62fr;
+  /* Ajoutez ces lignes uniquement */
+  grid-auto-rows: minmax(200px, auto);
+  contain: layout;
+  
+  /* Le reste de votre CSS reste inchangé */
+  gap: 40px;
+  padding: 0 20px;
+  
+  @media (max-width: 1024px) {
+    grid-template-columns: 1fr;
+    @include displayGap;
+    align-items: center;
+    padding: 0;
+  }
 }
 
-.container > * {
-  min-height: 173px;
-}
