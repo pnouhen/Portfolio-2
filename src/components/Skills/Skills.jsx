@@ -27,7 +27,12 @@ export default function Skills() {
         <ul>
           {skillsData.acquired.map((item, index) => (
             <li key={index}>
-              <img src={item.logo} alt={`Logo de ${item.name}`} className={item.class} />
+              <img
+                src={item.logo}
+                alt={`Logo de ${item.name}`}
+                className={item.class}
+                loading="lazy"
+              />
               {item.name}
             </li>
           ))}
@@ -39,7 +44,12 @@ export default function Skills() {
         <ul>
           {skillsData.InProcess.map((item, index) => (
             <li key={index}>
-              <img src={item.logo} alt={`Logo de ${item.name}`} className={item.class} />
+              <img
+                src={item.logo}
+                alt={`Logo de ${item.name}`}
+                className={item.class}
+                loading="lazy"
+              />
               {item.name}
             </li>
           ))}
@@ -51,7 +61,12 @@ export default function Skills() {
         <ul>
           {skillsData.OnTheProgram.map((item, index) => (
             <li key={index}>
-              <img src={item.logo} alt={`Logo de ${item.name}`} className={item.class} />
+              <img
+                src={item.logo}
+                alt={`Logo de ${item.name}`}
+                className={item.class}
+                loading="lazy"
+              />
               {item.name}
             </li>
           ))}
