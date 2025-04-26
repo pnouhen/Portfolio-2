@@ -2,7 +2,7 @@
 
 .skills {
   grid-column: 1;
-  grid-row: 1 / 3;
+  grid-row: 2 / 4;
   article {
     @include displayGap;
     gap: 20px;
@@ -54,16 +54,5 @@
       display: flex;
       justify-content: center;
     }
-  }
-}
-
-.SoftSkills {
-  grid-column: 2;
-  ul {
-    @include displayGap;
-    justify-content: space-around;
-    gap: 20px;
-    list-style: none;
-    height: 100%;
   }
 }

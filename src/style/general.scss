@@ -4,7 +4,6 @@
 * {
   margin: 0;
   box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
 }
 body{
   margin: auto;
@@ -31,6 +30,10 @@ h2{
   }
 }
 
+h3, p, li{
+  font-family: "Montserrat", sans-serif;
+}
+
 h3{
   font-size: 18px;
   text-align: center;
@@ -41,14 +44,9 @@ h3{
     font-size: 14px;
   }
 }
-p, li{
+li{
   font-size: 16px;
   @media (max-width: 1024px) {
     font-size: 14px;
   }
 }
-
-ul{
-  padding: 0;
-}
-

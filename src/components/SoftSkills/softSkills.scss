@@ -1,0 +1,11 @@
+@import "../../style/mixin";
+
+.softSkills {
+    ul {
+      @include displayGap;
+      justify-content: space-around;
+      gap: 20px;
+      list-style: none;
+      height: 100%;
+    }
+  }

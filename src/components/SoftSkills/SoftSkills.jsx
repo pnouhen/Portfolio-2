@@ -1,9 +1,9 @@
 // Le fichier scss correspondant n'a pas été créé car problème avec vercel
-import "../Skills/skills.scss";
+import "./softSkills.scss";
 
 export default function SoftSkills() {
     return (
-      <section id="SoftSkills" className="SoftSkills">
+      <section id="SoftSkills" className="softSkills">
         <h2>Savoir-être Professionnels</h2>
         <ul>
           <li>Méthodique & Rigoureux</li>

@@ -11,14 +11,14 @@ import "./home.scss";
 export default function Home() {
   return (
     <>
-      <Header />
-      <About />
-      <div className="container">
-          <Skills />
-          <SoftSkills />
-          <SlideShow />
-          <Projects />
-      </div>
+    <Header />
+      <main>
+        <About />
+        <Skills />
+        <SoftSkills />
+        <SlideShow />
+        <Projects />
+      </main>
       <Footer />
     </>
   );
