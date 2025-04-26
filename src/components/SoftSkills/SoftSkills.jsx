@@ -1,4 +1,3 @@
-// Le fichier scss correspondant n'a pas été créé car problème avec vercel
 import "./softSkills.scss";
 
 export default function SoftSkills() {
